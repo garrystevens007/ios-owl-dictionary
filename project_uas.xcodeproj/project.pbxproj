@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B057FD825D8431C00B3B8E6 /* DefModeld+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B057FD425D8431C00B3B8E6 /* DefModeld+CoreDataClass.swift */; };
+		4B057FD925D8431C00B3B8E6 /* DefModeld+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B057FD525D8431C00B3B8E6 /* DefModeld+CoreDataProperties.swift */; };
+		4B057FDA25D8431C00B3B8E6 /* WordData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B057FD625D8431C00B3B8E6 /* WordData+CoreDataClass.swift */; };
+		4B057FDB25D8431C00B3B8E6 /* WordData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B057FD725D8431C00B3B8E6 /* WordData+CoreDataProperties.swift */; };
+		4B55BA9825D5369900E4576C /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B55BA9725D5369900E4576C /* FavouriteViewController.swift */; };
+		4B55BA9A25D537F000E4576C /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B55BA9925D537F000E4576C /* Dictionary.swift */; };
+		4B55BA9C25D56F4F00E4576C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B55BA9B25D56F4F00E4576C /* SearchViewController.swift */; };
+		4B55BA9E25D58AED00E4576C /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B55BA9D25D58AED00E4576C /* DetailTableViewCell.swift */; };
+		4B55BAA025D5918A00E4576C /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B55BA9F25D5918A00E4576C /* DataModel.swift */; };
 		4B63343D25D50981008301D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B63343C25D50981008301D0 /* AppDelegate.swift */; };
 		4B63343F25D50981008301D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B63343E25D50981008301D0 /* SceneDelegate.swift */; };
 		4B63344125D50981008301D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B63344025D50981008301D0 /* ViewController.swift */; };
@@ -14,9 +23,19 @@
 		4B63344725D50981008301D0 /* project_uas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B63344525D50981008301D0 /* project_uas.xcdatamodeld */; };
 		4B63344925D50982008301D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B63344825D50982008301D0 /* Assets.xcassets */; };
 		4B63344C25D50982008301D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B63344A25D50982008301D0 /* LaunchScreen.storyboard */; };
+		4B64E50C25D521870016A177 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B64E50B25D521870016A177 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B057FD425D8431C00B3B8E6 /* DefModeld+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DefModeld+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4B057FD525D8431C00B3B8E6 /* DefModeld+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DefModeld+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4B057FD625D8431C00B3B8E6 /* WordData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WordData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4B057FD725D8431C00B3B8E6 /* WordData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WordData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4B55BA9725D5369900E4576C /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
+		4B55BA9925D537F000E4576C /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		4B55BA9B25D56F4F00E4576C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		4B55BA9D25D58AED00E4576C /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		4B55BA9F25D5918A00E4576C /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		4B63343925D50981008301D0 /* project_uas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project_uas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B63343C25D50981008301D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B63343E25D50981008301D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +45,7 @@
 		4B63344825D50982008301D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B63344B25D50982008301D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B63344D25D50982008301D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B64E50B25D521870016A177 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +59,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B57433225D82B1900FA1F4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4B057FD425D8431C00B3B8E6 /* DefModeld+CoreDataClass.swift */,
+				4B057FD525D8431C00B3B8E6 /* DefModeld+CoreDataProperties.swift */,
+				4B057FD625D8431C00B3B8E6 /* WordData+CoreDataClass.swift */,
+				4B057FD725D8431C00B3B8E6 /* WordData+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		4B63343025D50981008301D0 = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +89,21 @@
 		4B63343B25D50981008301D0 /* project_uas */ = {
 			isa = PBXGroup;
 			children = (
+				4B57433225D82B1900FA1F4A /* Model */,
 				4B63343C25D50981008301D0 /* AppDelegate.swift */,
 				4B63343E25D50981008301D0 /* SceneDelegate.swift */,
 				4B63344025D50981008301D0 /* ViewController.swift */,
 				4B63344225D50981008301D0 /* Main.storyboard */,
+				4B64E50B25D521870016A177 /* HomeViewController.swift */,
+				4B55BA9B25D56F4F00E4576C /* SearchViewController.swift */,
+				4B55BA9725D5369900E4576C /* FavouriteViewController.swift */,
+				4B55BA9925D537F000E4576C /* Dictionary.swift */,
 				4B63344825D50982008301D0 /* Assets.xcassets */,
 				4B63344A25D50982008301D0 /* LaunchScreen.storyboard */,
 				4B63344D25D50982008301D0 /* Info.plist */,
 				4B63344525D50981008301D0 /* project_uas.xcdatamodeld */,
+				4B55BA9D25D58AED00E4576C /* DetailTableViewCell.swift */,
+				4B55BA9F25D5918A00E4576C /* DataModel.swift */,
 			);
 			path = project_uas;
 			sourceTree = "<group>";
@@ -141,9 +179,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B057FDA25D8431C00B3B8E6 /* WordData+CoreDataClass.swift in Sources */,
+				4B057FD925D8431C00B3B8E6 /* DefModeld+CoreDataProperties.swift in Sources */,
+				4B55BA9E25D58AED00E4576C /* DetailTableViewCell.swift in Sources */,
+				4B64E50C25D521870016A177 /* HomeViewController.swift in Sources */,
 				4B63344125D50981008301D0 /* ViewController.swift in Sources */,
+				4B057FDB25D8431C00B3B8E6 /* WordData+CoreDataProperties.swift in Sources */,
+				4B55BA9C25D56F4F00E4576C /* SearchViewController.swift in Sources */,
 				4B63343D25D50981008301D0 /* AppDelegate.swift in Sources */,
+				4B55BAA025D5918A00E4576C /* DataModel.swift in Sources */,
 				4B63343F25D50981008301D0 /* SceneDelegate.swift in Sources */,
+				4B55BA9A25D537F000E4576C /* Dictionary.swift in Sources */,
+				4B057FD825D8431C00B3B8E6 /* DefModeld+CoreDataClass.swift in Sources */,
+				4B55BA9825D5369900E4576C /* FavouriteViewController.swift in Sources */,
 				4B63344725D50981008301D0 /* project_uas.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,4 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19F101" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="DefModeld" representedClassName="DefModeld" syncable="YES">
+        <attribute name="definition" optional="YES" attributeType="String"/>
+        <attribute name="emoji" optional="YES" attributeType="String"/>
+        <attribute name="example" optional="YES" attributeType="String"/>
+        <attribute name="image_url" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <relationship name="wordData" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="WordData" inverseName="definitons" inverseEntity="WordData"/>
+    </entity>
+    <entity name="WordData" representedClassName="WordData" syncable="YES">
+        <attribute name="pronunciation" optional="YES" attributeType="String"/>
+        <attribute name="word" optional="YES" attributeType="String"/>
+        <relationship name="definitons" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DefModeld" inverseName="wordData" inverseEntity="DefModeld"/>
+    </entity>
+    <elements>
+        <element name="DefModeld" positionX="111.84375" positionY="-44.95703125" width="128" height="133"/>
+        <element name="WordData" positionX="-129.984375" positionY="-4.98046875" width="128" height="88"/>
+    </elements>
 </model>
